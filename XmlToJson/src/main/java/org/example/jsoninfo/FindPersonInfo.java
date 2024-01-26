@@ -10,8 +10,6 @@ public class FindPersonInfo {
     @JsonProperty("PartyID")
     private int partyId;
 
-
-
     public FindPersonInfo(PersonName personName, IdentityCard identityCard, int partyId) {
         this.personName = personName;
         this.identityCard = identityCard;

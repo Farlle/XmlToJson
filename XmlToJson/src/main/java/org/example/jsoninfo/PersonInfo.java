@@ -11,7 +11,6 @@ public class PersonInfo {
     public PersonInfo(FindPersonInfo findPersonInfo) {
         this.findPersonInfo = findPersonInfo;
     }
-
     public FindPersonInfo getFindPersonInfo() {
         return findPersonInfo;
     }

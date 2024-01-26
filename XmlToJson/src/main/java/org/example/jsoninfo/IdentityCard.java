@@ -10,7 +10,6 @@ public class IdentityCard {
     @JsonProperty("IdNum")
     private int idNum;
 
-
     public IdentityCard(int idType, int idSeries, int idNum) {
         this.idType = idType;
         this.idSeries = idSeries;

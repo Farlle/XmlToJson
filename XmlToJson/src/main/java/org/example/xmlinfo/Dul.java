@@ -4,7 +4,6 @@ public class Dul {
     private int documentType;
     private int number;
     private int series;
-
     private String firstName;
     private String lastName;
     private String secondName;
