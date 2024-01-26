@@ -1,6 +1,18 @@
 package org.example.jsoninfo;
 
-public class PersonInfo {
-    FindPersonInfo findPersonInfo;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonRootName;
 
+@JsonRootName("PersonInfo")
+public class PersonInfo {
+    @JsonProperty("FindPersonINfo")
+    private FindPersonInfo findPersonInfo;
+
+    public PersonInfo(FindPersonInfo findPersonInfo) {
+        this.findPersonInfo = findPersonInfo;
+    }
+
+    public FindPersonInfo getFindPersonInfo() {
+        return findPersonInfo;
+    }
 }
